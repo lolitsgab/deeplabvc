@@ -1,0 +1,3 @@
+import os
+os.system("export PYTHONPATH=$PYTHONPATH:/content/drive/My\ Drive/deeplab_files/:/content/drive/My\ Drive/deeplab_files/slim")
+

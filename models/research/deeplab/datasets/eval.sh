@@ -1,0 +1,16 @@
+python deeplab/eval.py \
+    --logtostderr \
+    --eval_split="val" \
+    --model_variant="xception_65" \
+    --atrous_rates=6 \
+    --atrous_rates=12 \
+    --atrous_rates=18 \
+    --output_stride=16 \
+    --decoder_output_stride=4 \
+    --eval_crop_size=651 \
+    --eval_crop_size=500 \
+    --dataset="pascal_voc_seg" \
+    --colormap_type="pascal" \
+    --checkpoint_dir='c:/shared/projects/models/research/deeplab/datasets/PQR/exp/train_on_trainval_set/train' \
+    --eval_logdir='c:/shared/projects/models/research/deeplab/datasets/PQR/exp/train_on_trainval_set/eval' \
+    --dataset_dir='c:/shared/projects/models/research/deeplab/datasets/PQR/tfrecord'
