@@ -67,11 +67,11 @@ DatasetDescriptor = collections.namedtuple(
 )
 _PQR_SEG_INFORMATION = DatasetDescriptor(
     splits_to_sizes={
-        'train': 303, # number of file in the train folder
-        'trainval': 425,
-        'val': 122,
+        'train': 185000, # number of file in the train folder
+        'trainval': 217051,
+        'val': 32051,
     },
-    num_classes=9, # number of classes in your dataset
+    num_classes=13, # number of classes in your dataset
     ignore_label=255, # white edges that will be ignored to be class
 )
 _CITYSCAPES_INFORMATION = DatasetDescriptor(
