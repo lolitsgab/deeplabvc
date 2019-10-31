@@ -71,7 +71,7 @@ _PQR_SEG_INFORMATION = DatasetDescriptor(
         'trainval': 217051,
         'val': 32051,
     },
-    num_classes=15, # number of classes in your dataset
+    num_classes=14, # number of classes in your dataset
     ignore_label=255, # white edges that will be ignored to be class
 )
 _CITYSCAPES_INFORMATION = DatasetDescriptor(
